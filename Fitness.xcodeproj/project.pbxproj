@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F31BC5C2C55047D008656DE /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F31BC5B2C55047D008656DE /* ActivityCard.swift */; };
 		3FBF1BD52C54F50100CD426D /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF1BD42C54F50100CD426D /* FitnessApp.swift */; };
 		3FBF1BD72C54F50100CD426D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF1BD62C54F50100CD426D /* ContentView.swift */; };
 		3FBF1BD92C54F50300CD426D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF1BD82C54F50300CD426D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F31BC5B2C55047D008656DE /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		3FBF1BD12C54F50100CD426D /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBF1BD42C54F50100CD426D /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
 		3FBF1BD62C54F50100CD426D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,14 +61,13 @@
 		3FBF1BD32C54F50100CD426D /* Fitness */ = {
 			isa = PBXGroup;
 			children = (
+				3FBF1BEA2C5502FF00CD426D /* Home */,
 				3FBF1BD42C54F50100CD426D /* FitnessApp.swift */,
 				3FBF1BD62C54F50100CD426D /* ContentView.swift */,
 				3FBF1BD82C54F50300CD426D /* Assets.xcassets */,
 				3FBF1BDA2C54F50300CD426D /* Preview Content */,
-				3FBF1BE22C54F8AD00CD426D /* FitnessTabView.swift */,
-				3FBF1BE42C54F92300CD426D /* HomeView.swift */,
 				3FBF1BE62C54F97D00CD426D /* HistoricDataView.swift */,
-				3FBF1BE82C54FE6100CD426D /* ProgressCircleView.swift */,
+				3FBF1BE22C54F8AD00CD426D /* FitnessTabView.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -77,6 +78,16 @@
 				3FBF1BDB2C54F50300CD426D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FBF1BEA2C5502FF00CD426D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF1BE42C54F92300CD426D /* HomeView.swift */,
+				3FBF1BE82C54FE6100CD426D /* ProgressCircleView.swift */,
+				3F31BC5B2C55047D008656DE /* ActivityCard.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				3FBF1BE52C54F92300CD426D /* HomeView.swift in Sources */,
 				3FBF1BE72C54F97D00CD426D /* HistoricDataView.swift in Sources */,
 				3FBF1BD72C54F50100CD426D /* ContentView.swift in Sources */,
+				3F31BC5C2C55047D008656DE /* ActivityCard.swift in Sources */,
 				3FBF1BD52C54F50100CD426D /* FitnessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
